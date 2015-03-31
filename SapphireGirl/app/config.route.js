@@ -57,37 +57,37 @@
                      templateUrl: 'app/resume/resume.html',
                      settings: {
                          nav: 4,
-                         content: '<i class="fa fa-lock"></i> Admin'
+                         content: '<i class="fa fa-lock"></i> Resume'
                      }
                  }
              }, {
-                 url: '/resume',
+                 url: '/skillset',
                  config: {
                      title: 'resume',
-                     templateUrl: 'app/resume/resume.html',
+                     templateUrl: 'app/resume/skillset.html',
                      settings: {
                          nav: 5,
-                         content: '<i class="fa fa-lock"></i> Admin'
+                         content: '<i class="fa fa-lock"></i> Skillset'
                      }
                  }
              }, {
-                 url: '/resume',
+                 url: '/passions',
                  config: {
                      title: 'resume',
                      templateUrl: 'app/resume/resume.html',
                      settings: {
                          nav: 6,
-                         content: '<i class="fa fa-lock"></i> Admin'
+                         content: '<i class="fa fa-lock"></i> My Passions'
                      }
                  }
              }, {
-                 url: '/resume',
+                 url: '/main',
                  config: {
-                     title: 'resume',
-                     templateUrl: 'app/resume/resume.html',
+                     title: 'main',
+                     templateUrl: 'app/main/main.html',
                      settings: {
-                         nav: 3,
-                         content: '<i class="fa fa-lock"></i> Admin'
+                         nav: 7,
+                         content: '<i class="fa fa-lock"></i> Main'
                      }
                  }
              }

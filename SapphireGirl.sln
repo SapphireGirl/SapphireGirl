@@ -9,6 +9,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SapphireGirl.Model", "Sapph
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SapphireGirl.DataAccess", "SapphireGirl.DataAccess\SapphireGirl.DataAccess.csproj", "{51C7D338-6932-4DBE-9EE2-17930D823F08}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{C1B02C88-8522-412E-89FE-9C72339553CE}"
+	ProjectSection(SolutionItems) = preProject
+		gulp.config.json = gulp.config.json
+		gulpfile.js = gulpfile.js
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

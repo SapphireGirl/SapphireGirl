@@ -1,0 +1,5 @@
+C:\Web\Demos\SapphireGirl\SapphireGirl.Model\bin\Debug\SapphireGirl.Model.dll
+C:\Web\Demos\SapphireGirl\SapphireGirl.Model\bin\Debug\SapphireGirl.Model.pdb
+C:\Web\Demos\SapphireGirl\SapphireGirl.Model\obj\Debug\SapphireGirl.Model.csprojResolveAssemblyReference.cache
+C:\Web\Demos\SapphireGirl\SapphireGirl.Model\obj\Debug\SapphireGirl.Model.dll
+C:\Web\Demos\SapphireGirl\SapphireGirl.Model\obj\Debug\SapphireGirl.Model.pdb

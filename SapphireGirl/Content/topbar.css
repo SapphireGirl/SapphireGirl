@@ -1,0 +1,237 @@
+﻿/* Topbar */
+
+.topbar {
+    width: 230px;
+    float: left;
+    display: block;
+    background: #9E729E;
+    color: #eee;
+    position: relative;
+}
+
+    .topbar hr {
+        border-bottom: 1px solid #9E729E !important;
+    }
+
+    .topbar ul {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+    }
+
+        .topbar ul li {
+            list-style-type: none;
+        }
+
+    .topbar .topbar-inner {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        position: absolute;
+        z-index: 60;
+        background: #9E729E;
+    }
+
+    .topbar .navi li i {
+        margin-right: 5px;
+    }
+
+    .topbar .navi li span i {
+        margin: 0;
+    }
+
+    .topbar .navi > li > a {
+        display: block;
+        padding: 12px 20px;
+        font-size: 15px;
+        line-height: 25px;
+        color: #fff;
+        text-decoration: none;
+        border-bottom: 1px solid #9E729E;
+        background-color: #9E729E;
+    }
+
+        .topbar .navi > li > a:hover, .topbar .navi > li.open > a {
+            border-bottom: 1px solid #9E729E;
+            background-color: #9E729E;
+            color: #fff;
+        }
+
+    .topbar .navi li ul {
+        display: none;
+        background: #9E729E;
+    }
+
+    .topbar .navi li.open ul {
+        display: block;
+    }
+
+    .topbar .navi li ul li a {
+        display: block;
+        background: none;
+        padding: 10px 0;
+        padding-left: 30px;
+        text-decoration: none;
+        color: #999;
+        border-bottom: 1px solid #9E729E;
+    }
+
+    .topbar .navi li ul li.active a {
+        background: #9E729E;
+        border-bottom: 1px solid #222;
+    }
+
+    .topbar .navi li ul li a:hover {
+        background: #9E729E;
+        border-bottom: 1px solid #222;
+    }
+
+    /* Topbar colors */
+
+    .topbar .navi > li.nlightblue > a:hover,
+    .topbar .navi > li.open.nlightblue > a,
+    .topbar .navi > li.current.nlightblue > a {
+        background: #52b9e9 !important;
+        -webkit-transition: background 0.5s ease;
+        -moz-transition: background 0.5s ease;
+        -o-transition: background 0.5s ease;
+        transition: background 0.5s ease;
+    }
+
+    .topbar .navi > li.nblue > a:hover,
+    .topbar .navi > li.open.nblue > a,
+    .topbar .navi > li.current.nblue > a {
+        background: #1171a3 !important;
+        -webkit-transition: background 0.5s ease;
+        -moz-transition: background 0.5s ease;
+        -o-transition: background 0.5s ease;
+        transition: background 0.5s ease;
+    }
+
+    .topbar .navi > li.ngreen > a:hover,
+    .topbar .navi > li.open.ngreen > a,
+    .topbar .navi > li.current.ngreen > a {
+        background: #43c83c !important;
+        -webkit-transition: background 0.5s ease;
+        -moz-transition: background 0.5s ease;
+        -o-transition: background 0.5s ease;
+        transition: background 0.5s ease;
+    }
+
+    .topbar .navi > li.norange > a:hover,
+    .topbar .navi > li.open.norange > a,
+    .topbar .navi > li.current.norange > a {
+        background: #f88529 !important;
+        -webkit-transition: background 0.5s ease;
+        -moz-transition: background 0.5s ease;
+        -o-transition: background 0.5s ease;
+        transition: background 0.5s ease;
+    }
+
+    .topbar .navi > li.nred > a:hover,
+    .topbar .navi > li.open.nred > a,
+    .topbar .navi > li.current.nred > a {
+        background: #fa3031 !important;
+        -webkit-transition: background 0.5s ease;
+        -moz-transition: background 0.5s ease;
+        -o-transition: background 0.5s ease;
+        transition: background 0.5s ease;
+    }
+
+    .topbar .navi > li.nviolet > a:hover,
+    .topbar .navi > li.open.nviolet > a,
+    .topbar .navi > li.current.nviolet > a {
+        background: #932ab6 !important;
+        -webkit-transition: background 0.5s ease;
+        -moz-transition: background 0.5s ease;
+        -o-transition: background 0.5s ease;
+        transition: background 0.5s ease;
+    }
+
+    .topbar .navi > li.bluegray > a:hover,
+    .topbar .navi > li.open.bluegray > a,
+    .topbar .navi > li.current.bluegray > a {
+        background: #726D9E  !important;
+        -webkit-transition: background 0.5s ease;
+        -moz-transition: background 0.5s ease;
+        -o-transition: background 0.5s ease;
+        transition: background 0.5s ease;
+    }
+
+/* topbar dropdown */
+
+    .topbar .topbar-dropdown* {
+        text-decoration: none;
+    }
+
+    .topbar .topbar-dropdown {
+        display: none;
+    }
+
+        .topbar .topbar-dropdown a {
+            color: #ddd;
+            background-color: #9E729E;
+            padding: 6px;
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 13px;
+            display: block;
+            border-top: 1px solid #666;
+            border-bottom: 1px solid #9E729E;
+        }
+
+            .topbar .topbar-dropdown a:hover {
+                text-decoration: none;
+            }
+
+    /* topbar widget */
+
+    .topbar .topbar-widget {
+        padding: 10px 5px;
+    }
+
+    .topbar .ui-datepicker {
+        width: 95%;
+        margin: 0 auto;
+        background: #9E729E;
+        color: #888;
+        border: 0;
+        padding: 0;
+    }
+
+    .topbar .ui-datepicker-header {
+        background: #9E729E;
+        border: 1px solid #9E729E;
+    }
+
+    .topbar .ui-datepicker-prev:hover {
+        background: transparent;
+        border: 0;
+        top: 2px !important;
+        left: 2px !important;
+    }
+
+    .topbar .ui-datepicker-next:hover {
+        background: transparent;
+        border: 0;
+        top: 2px !important;
+        right: 2px !important;
+    }
+
+    .topbar .ui-state-default {
+        background: #9E729E;
+        border: 0;
+        text-align: center;
+        color: #DBCADB;
+    }
+
+        .topbar .ui-state-default:hover {
+            background: #9E729E ;
+            color: #DBCADB ;
+        }
+
+    .topbar .ui-state-hightlight, .topbar .ui-state-active {
+        background: #444;
+    }
+
+ 

@@ -24,7 +24,7 @@
 
 
     app.directive('ccSidebar', function () {
-        // Opens and clsoes the sidebar menu.
+        // Opens and closes the sidebar menu.
         // Usage:
         //  <div data-cc-sidebar>
         // Creates:
@@ -56,6 +56,46 @@
                 function hideAllSidebars() {
                     $sidebarInner.slideUp(350);
                     $('.sidebar-dropdown a').removeClass(dropClass);
+                }
+            }
+        }
+    });
+
+
+
+    app.directive('ccTopbar', function () {
+        // Opens and closes the sidebar menu.
+        // Usage:
+        //  <div data-cc-sidebar>
+        // Creates:
+        //  <div data-cc-sidebar class="sidebar">
+        var directive = {
+            link: link,
+            restrict: 'A'
+        };
+        return directive;
+
+        function link(scope, element, attrs) {
+            var $topbarInner = element.find('.topbar-inner');
+            var $dropdownElement = element.find('.topbar-dropdown a');
+            element.addClass('topbar');
+            $dropdownElement.click(dropdown);
+
+            function dropdown(e) {
+                var dropClass = 'dropy';
+                e.preventDefault();
+                if (!$dropdownElement.hasClass(dropClass)) {
+                    hideAllSidebars();
+                    $topbarInner.slideDown(350);
+                    $dropdownElement.addClass(dropClass);
+                } else if ($dropdownElement.hasClass(dropClass)) {
+                    $dropdownElement.removeClass(dropClass);
+                    $topbarInner.slideUp(350);
+                }
+
+                function hideAllSidebars() {
+                    $topbarInner.slideUp(350);
+                    $('.topbar-dropdown a').removeClass(dropClass);
                 }
             }
         }

@@ -46,7 +46,7 @@ body {
     margin-top: -2px;
 }
 
-    .sidebar .sidebar-inner {
+.sidebar .sidebar-inner {
         background-color: #9E729E;
     }
 
@@ -59,6 +59,27 @@ body {
     background-color: #9E729E;
     width: 230px;
 }
+
+.topbar {
+    margin-top: -2px;
+}
+
+.topbar .sidebar-inner {
+        background-color: #9E729E;
+    }
+
+.topbar-filler {
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #9E729E;
+    /* Changed from 230*/
+    width: 600px;
+}
+
+
 
 /*#endregion */
 
@@ -441,6 +462,9 @@ a {
         width: 200px;
     }
 
+    .topbar-filler {
+        width: 200px;
+    }
     .nav-collapse {
         clear: none;
     }
@@ -471,6 +495,10 @@ a {
 
 @media (max-width: 767px) {
     .sidebar-filler {
+        display: none;
+    }
+
+    .topbar-filler {
         display: none;
     }
 

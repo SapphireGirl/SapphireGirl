@@ -125,10 +125,14 @@
     <Content Include="app\dashboard\dashboard.js" />
     <Content Include="app\layout\shell.html" />
     <Content Include="app\layout\shell.js" />
+    <Content Include="app\layout\topbar.html" />
+    <Content Include="app\layout\topbar.js" />
     <Content Include="app\layout\sidebar.html" />
     <Content Include="app\layout\sidebar.js" />
     <Content Include="app\layout\topnav.html" />
     <Content Include="app\layout\widgetheader.html" />
+    <Content Include="app\main\main.html" />
+    <Content Include="app\main\main.js" />
     <Content Include="app\passions\passions.html" />
     <Content Include="app\passions\passions.js" />
     <Content Include="app\resume\resume.html" />
@@ -156,6 +160,7 @@
     <Content Include="Content\images\AngularJS-small.png" />
     <Content Include="Content\images\breezelogo.png" />
     <Content Include="Content\images\icon.png" />
+    <Content Include="Content\topbar.css" />
     <Content Include="Content\sidebar.css" />
     <Content Include="Content\styles.css" />
     <Content Include="Content\toastr.css" />
@@ -205,6 +210,7 @@
     <Content Include="fonts\custom-icons\font\custom-icons.eot" />
     <Content Include="fonts\custom-icons\font\custom-icons.ttf" />
     <Content Include="fonts\custom-icons\font\custom-icons.woff" />
+    <Content Include="readme.md" />
     <None Include="Scripts\jquery-2.1.1.intellisense.js" />
     <Content Include="Scripts\angular-mocks.js" />
     <Content Include="Scripts\bootstrap.js" />

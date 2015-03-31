@@ -1,0 +1,16 @@
+C:\Web\Demos\SapphireGirl\SapphireGirl.DataAccess\bin\Debug\SapphireGirl.DataAccess.dll.config
+C:\Web\Demos\SapphireGirl\SapphireGirl.DataAccess\bin\Debug\SapphireGirl.DataAccess.dll
+C:\Web\Demos\SapphireGirl\SapphireGirl.DataAccess\bin\Debug\SapphireGirl.DataAccess.pdb
+C:\Web\Demos\SapphireGirl\SapphireGirl.DataAccess\bin\Debug\Breeze.ContextProvider.dll
+C:\Web\Demos\SapphireGirl\SapphireGirl.DataAccess\bin\Debug\Breeze.ContextProvider.EF6.dll
+C:\Web\Demos\SapphireGirl\SapphireGirl.DataAccess\bin\Debug\EntityFramework.dll
+C:\Web\Demos\SapphireGirl\SapphireGirl.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Web\Demos\SapphireGirl\SapphireGirl.DataAccess\bin\Debug\Newtonsoft.Json.dll
+C:\Web\Demos\SapphireGirl\SapphireGirl.DataAccess\bin\Debug\SapphireGirl.Model.dll
+C:\Web\Demos\SapphireGirl\SapphireGirl.DataAccess\bin\Debug\SapphireGirl.Model.pdb
+C:\Web\Demos\SapphireGirl\SapphireGirl.DataAccess\bin\Debug\EntityFramework.xml
+C:\Web\Demos\SapphireGirl\SapphireGirl.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Web\Demos\SapphireGirl\SapphireGirl.DataAccess\bin\Debug\Newtonsoft.Json.xml
+C:\Web\Demos\SapphireGirl\SapphireGirl.DataAccess\obj\Debug\SapphireGirl.DataAccess.csprojResolveAssemblyReference.cache
+C:\Web\Demos\SapphireGirl\SapphireGirl.DataAccess\obj\Debug\SapphireGirl.DataAccess.dll
+C:\Web\Demos\SapphireGirl\SapphireGirl.DataAccess\obj\Debug\SapphireGirl.DataAccess.pdb

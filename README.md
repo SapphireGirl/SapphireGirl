@@ -1,16 +1,42 @@
-## Hi there 👋
+<!---
+Justine Alires's profile
+--->
 
-<!--
-**SapphireGirl/SapphireGirl** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<style>
+    /* body {
+        background-image: url('./assets/images/SGBannerVector_WPF.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: black;
+    } */
+    .bottom-div {
+    margin-top: auto;
+    background-color: rgba(241, 241, 241, 0.5); /* 50% opaque light gray */
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5em; /* Adjust the size as needed */
+    }
+</style>
+<img src="./assets/images/SGBannerVector_WPF.jpg" width="667" alt="Logo">
 
-Here are some ideas to get you started:
+## Front End Technologies
+- HTML5
+- CSS3
+- JavaScript
+- JQuery
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## AWS Services
+- AWS Lambda
+- AWS CloudFormation
+- AWS CI/CD CodePipeline
+- AWS S3
+- AWS DynamoDB
+
+## Server Side Programming languages 
+- .NET
+
+## Databases Technologies
+- SQLServer  
+- DynamoDB
+
+

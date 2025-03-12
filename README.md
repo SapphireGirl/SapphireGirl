@@ -12,6 +12,8 @@ Justine Alires's profile
 - CSS3
 - JavaScript
 - JQuery
+- Angular
+- React
 
 ## AWS Services
 - AWS Lambda

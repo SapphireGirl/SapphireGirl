@@ -2,22 +2,10 @@
 Justine Alires's profile
 --->
 
-<style>
-    /* body {
-        background-image: url('./SGBannerVector_WPF.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        color: black;
-    } */
-    .bottom-div {
-    margin-top: auto;
-    background-color: rgba(241, 241, 241, 0.5); /* 50% opaque light gray */
-    padding: 10px;
-    text-align: center;
-    font-size: 1.5em; /* Adjust the size as needed */
-    }
-</style>
-<img src="./assets/images/SGBannerVector_WPF.jpg" width="667" alt="Logo">
+![alt text](https://github.com/SapphireGirl/SapphireGirl/blob/master/SGBannerVector_WPF.jpg?raw=true)
+
+# Hi there!  I am Justine Alires
+## Coming into focus with Web Technologies
 
 ## Front End Technologies
 - HTML5

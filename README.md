@@ -4,7 +4,7 @@ Justine Alires's profile
 
 <style>
     /* body {
-        background-image: url('./assets/images/SGBannerVector_WPF.jpg');
+        background-image: url('./SGBannerVector_WPF.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         color: black;

@@ -10,7 +10,7 @@
 
 ## my.team = ["leading a team of talented, confident, kind, trustworthy, and team-minded, thoughtful, team-oriented"];
 
-## i.workwith = ["react","bootstrap","css3","HTML",".NET","C#","AWS","DynamoDB","ApiGateway","terraform"];
+## i.workwith = ["react", "bootstrap", "css3", "HTML", ".NET", "C#", "AWS", "DynamoDB", "ApiGateway", "terraform"];
 
 ## i.aspireTo = ["be the best leader I can be"];
 

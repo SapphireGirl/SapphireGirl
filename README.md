@@ -14,13 +14,13 @@ Justine Alires's profile
 - HTML5
 - CSS3
 - JavaScript
+- Typescript
 - JQuery
-- Angular
+- Bootstrap
+- Angular Version 17-20
+- Angular Material
 - React
-
-## Server Side Programming languages 
-- .NET
-- NodeJS
+- Jasmine Unit Testing
 
 ## AWS Services
 - AWS Lambda
@@ -28,10 +28,57 @@ Justine Alires's profile
 - AWS CI/CD CodePipeline
 - AWS S3
 - AWS DynamoDB
+- AWS CloudWatch
+- AWS Api Gateway
+- AWS IAM
 - AWS IoT
+- AWS WebSocket
+- AWS MQTT
+
+## Azure Services
+- Azure App Service
+- Azure Key Vault
+
+## Server Side Programming languages 
+- .NET
+- NodeJS
 
 ## Databases Technologies
-- SQLServer  
+- SQLServer
+- Store Procedures  
 - DynamoDB
+- Dapper
+- Entity Framework
+
+## Infrastructure as Code
+- AWS CloudFormation
+- Terraform
+- YAML
+- AWS CDK
+
+## DevOps / CI/CD
+- Azure DevOps
+- AWS CodePipeline
+- AWS CodeBuild
+- Git
+- GitHub
+- TFS
+- Bash
+- PowerShell
+
+#API Design and Development
+- RESTful API
+- Swagger
+- OpenAPI
+
+## Communication and Collaboration
+- Ability to communicate technical concepts to technical and non-technical stakeholders
+- Agile methodologies (Scrum, Kanban)
+
+## AI-Assisted Development
+- GitHub Copilot
+- ClaudAI
+- These are used for code scaffolding and generation, test scaffolding, and technical documentation
+
 
 
